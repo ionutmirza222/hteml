@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background-color: blueviolet;
+    }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.muzica{
+    display: inline-flex;
+}
+</style>
+</head>
+<body>
+
+    <nav><ul>
+        <li><a href="#home">Pagina principală</a></li>
+        <li><a href="#despre">Despre mine</a></li>
+        <li><a href="#muzica">Muzica preferată</a></li>
+        <li style="float:right"><a class="active" href="#contact">Contacte</a></li>
+      </ul>
+    </nav>
+    <img src="/poza2.PNG"  width="100%" height="300px"alt="">
+    <div class="despre" id="despre">
+        <h1>Despre mine</h1>
+    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ut est illum! Maiores, dolores, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates obcaecati, vel repellendus corporis blanditiis ex! Delectus cumque, soluta aperiam esse enim molestias beatae doloremque rerum ipsum nostrum ab laborum molestiae. ullam harum eaque delectus id nisi error minima consequatur voluptate amet, corrupti earum vel consectetur debitis.        </p>
+   
+    </div>
+<div class="muzica" id="muzica">
+    <iframe width="50%" height="315" src="https://www.youtube.com/embed/W13T9W7Ydqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="50%" height="315" src="https://www.youtube.com/embed/8hlDIoNJNBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Foc24xvy1Gg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/M4HK5SQG0cA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="contact" id="contact">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7790985.9574293755!2d3.5830443618044376!3d17.54602591207391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1199ec7ac6a1af5d%3A0xc933920a158e24d4!2sNiger!5e0!3m2!1sen!2s!4v1670359990434!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</body>
+</html>
+
